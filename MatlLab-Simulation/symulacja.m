@@ -4,8 +4,8 @@ close all;
 clc;
 
 % Parametry symulacji
-Fs = 1000;         % Częstotliwość próbkowania
-Tb = 1;            % Czas trwania jednego bitu
+Fs = 9600;         % Częstotliwość próbkowania
+Tb = 10;            % Czas trwania jednego bitu
 fc = 10;           % Częstotliwość nośna
 Amplitude = 1;     % Amplituda sygnału nośnego
 delay = 100;
@@ -26,7 +26,7 @@ grid on;
 % Tworzenie sygnału ASK
 t = 0:1/Fs:Tb-1/Fs;  % Wektor czasu dla jednego bitu
 
-clear ask_signal;
+clear ask_signal decoded_bits;
 ask_signal = [];     % Inicjalizacja sygnału ASK
 %% bez zakłóceń
 disp("BEZ ZAKLOCEN")
@@ -71,9 +71,11 @@ grid on;
 % Wyświetlanie zdekodowanego tekstu
 disp('Otrzymany tekst:');
 disp(binaryVectorToString(decoded_bits))
+disp('Roznice:')
+disp(compareVectors(input_data, decoded_bits))
 
 
-clear ask_signal;
+clear ask_signal decoded_bits;
 ask_signal = [];     % Inicjalizacja sygnału ASK
 %% z szumem Gaussowskim
 disp("SZUM GAUSSOWSKI")
@@ -124,9 +126,11 @@ grid on;
 % Wyświetlanie zdekodowanego tekstu
 disp('Otrzymany tekst:');
 disp(binaryVectorToString(decoded_bits))
+disp('Roznice:')
+disp(compareVectors(input_data, decoded_bits))
 
 
-clear ask_signal;
+clear ask_signal decoded_bits;
 ask_signal = [];     % Inicjalizacja sygnału ASK
 %% z zakłoceniem generującym opóźnienie
 disp("OPOZNIENIE")
@@ -183,9 +187,11 @@ grid on;
 % Wyświetlanie zdekodowanego tekstu
 disp('Otrzymany tekst:');
 disp(binaryVectorToString(decoded_bits))
+disp('Roznice:')
+disp(compareVectors(input_data, decoded_bits))
 
 
-clear ask_signal;
+clear ask_signal decoded_bits;
 ask_signal = [];     % Inicjalizacja sygnału ASK
 %% z zakłoceniem generującym opóźnienie i szumem Gausowskim
 disp("SZUM i OPOZNIENIE")
@@ -247,3 +253,5 @@ grid on;
 % Wyświetlanie zdekodowanego tekstu
 disp('Otrzymany tekst:');
 disp(binaryVectorToString(decoded_bits))
+disp('Roznice:')
+disp(compareVectors(input_data, decoded_bits))
