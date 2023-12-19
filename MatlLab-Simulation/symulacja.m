@@ -5,10 +5,10 @@ clc;
 
 % Parametry symulacji
 Fs = 9600;         % Częstotliwość próbkowania
-Tb = 1;            % Czas trwania jednego bitu
-fc = 10;           % Częstotliwość nośna
+Tb = 1000/Fs;            % Czas trwania jednego bitu
+fc = 100;           % Częstotliwość nośna
 Amplitude = 1;     % Amplituda sygnału nośnego
-delay = 100;
+delay = Fs/10;
 
 % Dane wejściowe
 word = 'SOS';
@@ -42,12 +42,15 @@ end
 figure;
 plot(ask_signal);
 title('Sygnał ASK - bez zaklocen');
-xlabel('Czas');
+xlabel('Chwila');
 ylabel('Amplituda');
 grid on;
 
 % Demodulacja sygnału ASK
 demodulated_signal = ask_signal .* repmat(sin(2 * pi * fc * t), 1, length(input_data));
+
+figure;
+plot(repmat(sin(2 * pi * fc * t), 1, length(input_data)))
 
 % Otrzymywanie zdekodowanych bitów
 decoded_bits = zeros(1, length(input_data));
@@ -97,7 +100,7 @@ end
 figure;
 plot(ask_signal);
 title('Sygnał ASK - szum');
-xlabel('Czas');
+xlabel('Chwila');
 ylabel('Amplituda');
 grid on;
 
@@ -158,7 +161,7 @@ end
 figure;
 plot(ask_signal);
 title('Sygnał ASK - OPOZNIENIE');
-xlabel('Czas');
+xlabel('Chwila');
 ylabel('Amplituda');
 grid on;
 
@@ -224,7 +227,7 @@ end
 figure;
 plot(ask_signal);
 title('Sygnał ASK - SZUM i OPOZNIENIE');
-xlabel('Czas');
+xlabel('Chwila');
 ylabel('Amplituda');
 grid on;
 
