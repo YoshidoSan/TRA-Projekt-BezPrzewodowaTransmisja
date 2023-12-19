@@ -5,7 +5,7 @@ clc;
 
 % Parametry symulacji
 Fs = 9600;         % Częstotliwość próbkowania
-Tb = 10;            % Czas trwania jednego bitu
+Tb = 1;            % Czas trwania jednego bitu
 fc = 10;           % Częstotliwość nośna
 Amplitude = 1;     % Amplituda sygnału nośnego
 delay = 100;
@@ -13,7 +13,7 @@ delay = 100;
 % Dane wejściowe
 word = 'SOS';
 input_data = stringToBinaryVector(word);
-disp(input_data)
+% disp(input_data)
 
 
 figure;
@@ -57,7 +57,7 @@ for i = 1:length(input_data)
     decoded_bits(i) = sum(demodulated_signal(start_index:end_index)) > 0;
 end
 
-disp(decoded_bits)
+% disp(decoded_bits)
 
 % Wyświetlanie zdekodowanych bitów
 figure;
@@ -112,7 +112,7 @@ for i = 1:length(input_data)
     decoded_bits(i) = sum(demodulated_signal(start_index:end_index)) > 0;
 end
 
-disp(decoded_bits)
+% disp(decoded_bits)
 
 % Wyświetlanie zdekodowanych bitów
 figure;
@@ -173,7 +173,7 @@ for i = 1:length(input_data)
     decoded_bits(i) = sum(demodulated_signal(start_index:end_index)) > 0;
 end
 
-disp(decoded_bits)
+% disp(decoded_bits)
 
 % Wyświetlanie zdekodowanych bitów
 figure;
@@ -239,7 +239,7 @@ for i = 1:length(input_data)
     decoded_bits(i) = sum(demodulated_signal(start_index:end_index)) > 0;
 end
 
-disp(decoded_bits)
+% disp(decoded_bits)
 
 % Wyświetlanie zdekodowanych bitów
 figure;
