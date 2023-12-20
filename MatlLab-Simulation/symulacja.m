@@ -40,6 +40,7 @@ end
 
 % Wyświetlanie sygnału ASK
 figure;
+subplot(2,1,1);
 plot(ask_signal);
 title('Sygnał ASK - bez zaklocen');
 xlabel('Chwila');
@@ -48,9 +49,6 @@ grid on;
 
 % Demodulacja sygnału ASK
 demodulated_signal = ask_signal .* repmat(sin(2 * pi * fc * t), 1, length(input_data));
-
-figure;
-plot(repmat(sin(2 * pi * fc * t), 1, length(input_data)))
 
 % Otrzymywanie zdekodowanych bitów
 decoded_bits = zeros(1, length(input_data));
@@ -63,12 +61,13 @@ end
 % disp(decoded_bits)
 
 % Wyświetlanie zdekodowanych bitów
-figure;
+subplot(2,1,2); 
 stem(decoded_bits, 'LineWidth', 2);
 title('Zdekodowane bity - bez zaklocen');
 xlabel('Nr bitu');
 ylabel('Wartość');
 grid on;
+print("Czysty sygnal.png","-dpng","-r400")
 
 % Konwersja zdekodowanych bitów na postać tekstową
 % Wyświetlanie zdekodowanego tekstu
@@ -98,6 +97,7 @@ end
 
 % Wyświetlanie sygnału ASK
 figure;
+subplot(2,1,1); 
 plot(ask_signal);
 title('Sygnał ASK - szum');
 xlabel('Chwila');
@@ -118,12 +118,14 @@ end
 % disp(decoded_bits)
 
 % Wyświetlanie zdekodowanych bitów
-figure;
+subplot(2,1,2); 
 stem(decoded_bits, 'LineWidth', 2);
 title('Zdekodowane bity - SZUM');
 xlabel('Nr bitu');
 ylabel('Wartość');
 grid on;
+print("Szum sygnal.png","-dpng","-r400")
+
 
 % Konwersja zdekodowanych bitów na postać tekstową
 % Wyświetlanie zdekodowanego tekstu
@@ -159,6 +161,7 @@ end
 
 % Wyświetlanie sygnału ASK
 figure;
+subplot(2,1,1); 
 plot(ask_signal);
 title('Sygnał ASK - OPOZNIENIE');
 xlabel('Chwila');
@@ -179,12 +182,13 @@ end
 % disp(decoded_bits)
 
 % Wyświetlanie zdekodowanych bitów
-figure;
+subplot(2,1,2); 
 stem(decoded_bits, 'LineWidth', 2);
 title('Zdekodowane bity - OPOZNIENIE');
 xlabel('Nr bitu');
 ylabel('Wartość');
 grid on;
+print("Szum opoz.png","-dpng","-r400")
 
 % Konwersja zdekodowanych bitów na postać tekstową
 % Wyświetlanie zdekodowanego tekstu
@@ -225,6 +229,7 @@ end
 
 % Wyświetlanie sygnału ASK
 figure;
+subplot(2,1,1); 
 plot(ask_signal);
 title('Sygnał ASK - SZUM i OPOZNIENIE');
 xlabel('Chwila');
@@ -245,12 +250,14 @@ end
 % disp(decoded_bits)
 
 % Wyświetlanie zdekodowanych bitów
-figure;
+subplot(2,1,2); 
 stem(decoded_bits, 'LineWidth', 2);
 title('Zdekodowane bity - SZUM i OPOZNIENI');
 xlabel('Nr bitu');
 ylabel('Wartość');
 grid on;
+print("Szum all.png","-dpng","-r400")
+
 
 % Konwersja zdekodowanych bitów na postać tekstową
 % Wyświetlanie zdekodowanego tekstu
