@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e796ebed-372b-41f2-bcc1-b14a3ca81338" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Project/ArduinoCode/jammer/jammer.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/ArduinoCode/receiver/receiver.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/ArduinoCode/sender/sender.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/ArduinoConnection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Communication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/ArduinoCode/jammer/jammer.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ArduinoCode/jammer/jammer.ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/ArduinoCode/receiver/receiver.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ArduinoCode/receiver/receiver.ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/ArduinoCode/sender/sender.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ArduinoCode/sender/sender.ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/ArduinoConnection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ArduinoConnection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Communication.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Communication.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,33 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Communication">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\ArduinoCode\receiver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.sth">
+    <configuration name="ArduinoConnection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TRA-Projekt-BezPrzewodowaTransmisja" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/ArduinoConnection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Communication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TRA-Projekt-BezPrzewodowaTransmisja" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,6 +80,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/Communication.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TRA-Projekt-BezPrzewodowaTransmisja" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/sth.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +132,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sth" />
         <item itemvalue="Python.Communication" />
+        <item itemvalue="Python.ArduinoConnection" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -110,5 +160,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Project/ArduinoConnection.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Project/sth.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

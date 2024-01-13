@@ -8,7 +8,7 @@ import pandas as pd
 
 
 class ArduinoConnection:
-    received_history = pd.DataFrame(columns=['time', 'value', 'full_msg'])
+    received_history = pd.DataFrame(columns=['time', 'value'])
     send_history = pd.DataFrame(columns=['time', 'value', 'full_msg'])
     run = True
 
@@ -17,11 +17,9 @@ class ArduinoConnection:
         self.ser = serial.Serial(port, baud_rate)
 
     def save_data(self, path):
-        time_now = datetime.now()
-        name = f"{path}/{self.role}_{time_now.year}_{time_now.month}_{time_now.day}_" \
-               f"{time_now.hour}_{time_now.minute}"
+        name = f"{path}/{self.role}"
         self.received_history.to_csv(name+"_received.csv", index=False)
-        self.send_history.to_csv(name + "send.csv", index=False)
+        self.send_history.to_csv(name + "_send.csv", index=False)
 
     def send(self, msg):
         print(f"Send: {msg}")
@@ -29,16 +27,29 @@ class ArduinoConnection:
 
     def listen_thread(self):
         while self.run:
-            line = self.ser.readline().decode('utf-8').strip()
-            print(f"{self.role}, received: {line}")
-            data = line.split("_")
-            msg_type = data[0]
-            msg_value = float(data[1])
-            sample = {'time': datetime.now(), 'msg': 'line', 'value': msg_value}
-            if msg_type == "R":
-                self.received_history = self.received_history.append(sample, ignore_index=True)
-            elif msg_type == "S":
-                self.send_history = self.send_history.append(sample, ignore_index=True)
+            line = self.ser.readline().strip()
+            new_row = {'time': time.time_ns(), 'value': line}
+            self.received_history = pd.concat([self.received_history, pd.DataFrame([new_row])], ignore_index=True)
+            # print(f"{self.role}: {line}")
+            # try:
+            #     data = int(line)
+            #     new_row = {'time': time.time(), 'value': data, 'full_msg': line}
+            #     self.received_history = pd.concat([self.received_history, pd.DataFrame([new_row])], ignore_index=True)
+            # except Exception:
+            #     new_row = {'time': time.time(), 'value': None, 'full_msg': line}
+            #     self.received_history = pd.concat([self.received_history, pd.DataFrame([new_row])], ignore_index=True)
+
+            # if self.role == "Receiver" and line != "" and line != "Received":
+            #     try:
+            #         data = line
+            #
+            #         new_row = {'time': time.time(), 'value': int(data), 'full_msg': line}
+            #
+            #         self.received_history = pd.concat([self.received_history, pd.DataFrame([new_row])], ignore_index=True)
+            #
+            #     except Exception as e:
+            #         print(e)
+            #         raise e
 
     def start(self):
         listen_thread = threading.Thread(target=self.listen_thread)
