@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e796ebed-372b-41f2-bcc1-b14a3ca81338" name="Changes" comment="">
+    <list default="true" id="e796ebed-372b-41f2-bcc1-b14a3ca81338" name="Changes" comment="better way">
+      <change afterPath="$PROJECT_DIR$/Project/Data/analitic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Data/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/Receiver_received_nojammer.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/Sender_received_nojammer.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/analitic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/wykres1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/wykres2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Data/jammer1000/Receiver_received.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Data/jammer1000/Sender_received.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Data/jammer5000/Receiver_received.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Data/jammer5000/Sender_received.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Data/test_zakłócacza_różne warianty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Data/wykres1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Data/wykres2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/ArduinoCode/jammer/jammer.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ArduinoCode/jammer/jammer.ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/ArduinoCode/receiver/output.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ArduinoCode/receiver/output.ino" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/ArduinoCode/receiver/receiver.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ArduinoCode/receiver/receiver.ino" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/ArduinoCode/sender/sender.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ArduinoCode/sender/sender.ino" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/ArduinoConnection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ArduinoConnection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/Communication.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Communication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Data/Jammer_received.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Data/Jammer_received.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Data/Receiver_received.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Data/Receiver_received.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Data/Sender_received.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Data/Sender_received.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Data/analize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/sth.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,20 +53,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/@_czyli_studia/semestr_7/TRA/Projekt/TRA-Projekt-BezPrzewodowaTransmisja&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/@_czyli_studia/semestr_7/TRA/Projekt/TRA-Projekt-BezPrzewodowaTransmisja/Project/Data/jammer1000",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data\jammer1000" />
+      <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data\goooddata" />
+      <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data\jammer5000" />
+      <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data" />
+      <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data\goooddata\no_jammer" />
+      <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data\goooddata" />
       <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\ArduinoCode\receiver" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sth">
+  <component name="RunManager" selected="Python.Communication">
     <configuration name="ArduinoConnection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TRA-Projekt-BezPrzewodowaTransmisja" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +118,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="analitic (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TRA-Projekt-BezPrzewodowaTransmisja" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/Data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/Data/analitic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="analitic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TRA-Projekt-BezPrzewodowaTransmisja" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,7 +151,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/sth.py" />
+      <option name="SCRIPT_NAME" value="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data\goooddata\no_jammer\analitic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,8 +183,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sth" />
         <item itemvalue="Python.Communication" />
+        <item itemvalue="Python.analitic (1)" />
+        <item itemvalue="Python.analitic" />
         <item itemvalue="Python.ArduinoConnection" />
         <item itemvalue="Python.test" />
       </list>
@@ -148,6 +200,14 @@
       <option name="presentableId" value="Default" />
       <updated>1704539135784</updated>
     </task>
+    <task id="LOCAL-00001" summary="better way">
+      <created>1705178380146</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705178380147</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +221,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="better way" />
+    <option name="LAST_COMMIT_MESSAGE" value="better way" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -170,9 +234,14 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Project/sth.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/Project/Data/goooddata/no_jammer/analitic.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Project/Data/analitic.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -27,7 +27,7 @@ class ArduinoConnection:
 
     def listen_thread(self):
         while self.run:
-            line = self.ser.readline().strip()
+            line = self.ser.readline().decode('utf-8').strip()
             new_row = {'time': time.time_ns(), 'value': line}
             self.received_history = pd.concat([self.received_history, pd.DataFrame([new_row])], ignore_index=True)
             # print(f"{self.role}: {line}")

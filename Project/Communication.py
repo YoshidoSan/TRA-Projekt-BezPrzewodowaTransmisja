@@ -16,28 +16,18 @@ def binary_to_word(binary_str):
 if __name__ == "__main__":
     sender = ArduinoConnection("Sender", "COM7", 9600)
     receiver = ArduinoConnection("Receiver", "COM5", 9600)
-    # jammer = ArduinoConnection("Jammer", "COM3", 9600)
+    jammer = ArduinoConnection("Jammer", "COM6", 9600)
 
     sender.start()
     receiver.start()
-    # jammer.start()
+    jammer.start()
 
     time.sleep(5)
-    # word = 'SOS'
-    # print(f'Send word: {word}')
-    # binary_representation = word_to_binary(word)
-    # print(binary_representation)
-    # print(f'Send word binary representation: {binary_representation}')
-    # sender.send("Hello Worlds")
     time.sleep(30)
     print("Time out")
-    # sender.send("Hello Worlds")
     sender.save_data("Data")
     sender.run = False
     receiver.save_data("Data")
     receiver.run = False
-    # jammer.save_data("Data")
-    # jammer.run = False
-    # del sender, receiver
-    # word = binary_to_word(binary_representation)
-    # print(word)
+    jammer.save_data("Data")
+    jammer.run = False
