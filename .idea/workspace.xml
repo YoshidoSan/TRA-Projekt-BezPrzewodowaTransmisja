@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e796ebed-372b-41f2-bcc1-b14a3ca81338" name="Changes" comment="better way">
-      <change afterPath="$PROJECT_DIR$/Project/Data/analitic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Data/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/Receiver_received_nojammer.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/Sender_received_nojammer.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/analitic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/wykres1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/wykres2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Data/jammer1000/Receiver_received.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Data/jammer1000/Sender_received.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Data/jammer5000/Receiver_received.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Data/jammer5000/Sender_received.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Data/test_zakłócacza_różne warianty.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Data/wykres1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Data/wykres2.png" afterDir="false" />
+    <list default="true" id="e796ebed-372b-41f2-bcc1-b14a3ca81338" name="Changes" comment="maybe final commit">
+      <change afterPath="$PROJECT_DIR$/Project/ArduinoCode/rawreceiver/rawreceiver.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Data/Testy_Otoczenia/otoczenie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/GetRawReceiver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/plotData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/ArduinoCode/jammer/jammer.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ArduinoCode/jammer/jammer.ino" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/ArduinoCode/receiver/output.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ArduinoCode/receiver/output.ino" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/ArduinoCode/receiver/receiver.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ArduinoCode/receiver/receiver.ino" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/ArduinoCode/sender/sender.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ArduinoCode/sender/sender.ino" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/ArduinoConnection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ArduinoConnection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Communication.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Communication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Data/Jammer_received.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Data/Jammer_received.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Data/Receiver_received.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Data/Receiver_received.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Data/Sender_received.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Data/Sender_received.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Data/analize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/sth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Data/Receiver_received.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Data/Receiver_send.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/Receiver_received_nojammer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Data/no_jammer/Receiver_received_nojammer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/Sender_received_nojammer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Data/no_jammer/Sender_received_nojammer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/analitic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Data/no_jammer/analitic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Data/no_jammer/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/wykres1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Data/no_jammer/wykres1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Data/goooddata/no_jammer/wykres2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Data/no_jammer/wykres2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Data/test_zakłócacza_różne warianty.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Data/zapis_odczytów_z_arduino_testy_zakłóceń/test_zakłócacza_różne warianty.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Data/wykres1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Data/wykres2.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,35 +58,14 @@
       <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data\jammer5000" />
+      <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data\Testy_Otoczenia\rawData" />
+      <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data\Testy_Otoczenia" />
+      <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data\rawData" />
+      <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data\zapis_odczytów_z_arduino_testy_zakłóceń" />
       <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data" />
-      <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data\goooddata\no_jammer" />
-      <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data\goooddata" />
-      <recent name="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\ArduinoCode\receiver" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Communication">
-    <configuration name="ArduinoConnection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TRA-Projekt-BezPrzewodowaTransmisja" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/ArduinoConnection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.plotData (1)">
     <configuration name="Communication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TRA-Projekt-BezPrzewodowaTransmisja" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,6 +79,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/Communication.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GetRawReceiver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TRA-Projekt-BezPrzewodowaTransmisja" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/GetRawReceiver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="analitic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="plotData (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TRA-Projekt-BezPrzewodowaTransmisja" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,7 +141,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\Data\goooddata\no_jammer\analitic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/plotData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,19 +150,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="plotData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TRA-Projekt-BezPrzewodowaTransmisja" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python-Project" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python-Project/test.py" />
+      <option name="SCRIPT_NAME" value="D:\@_czyli_studia\semestr_7\TRA\Projekt\TRA-Projekt-BezPrzewodowaTransmisja\Project\plotData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.plotData (1)" />
+        <item itemvalue="Python.GetRawReceiver" />
+        <item itemvalue="Python.plotData" />
         <item itemvalue="Python.Communication" />
         <item itemvalue="Python.analitic (1)" />
-        <item itemvalue="Python.analitic" />
-        <item itemvalue="Python.ArduinoConnection" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705178380147</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="maybe final commit">
+      <created>1705352169824</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705352169824</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,7 +220,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="better way" />
-    <option name="LAST_COMMIT_MESSAGE" value="better way" />
+    <MESSAGE value="maybe final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="maybe final commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -234,7 +232,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Project/Data/goooddata/no_jammer/analitic.py</url>
+          <url>file://$PROJECT_DIR$/Project/Data/no_jammer/analitic.py</url>
           <line>28</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
